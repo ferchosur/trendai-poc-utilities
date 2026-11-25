@@ -33,7 +33,7 @@ Try it with the sanitized sample: `python3 tmas2sarif.py samples/tmas-report.sam
 | Severity | Critical/High → `error`, Medium → `warning`, Low/Negligible/Unknown → `note` |
 | `cvssSummaries[].cvssMetrics.cvssBaseScore` | `security-severity` = highest base score (GitHub uses it to rank alerts); fallback by severity |
 | `locations[]` (manifest) | `artifactLocation`, anchored to line 1 (TMAS reports no line for dependencies) |
-| `secrets.findings.unmitigated[]` | Rule `secret/<ruleID>` with exact line/column; secret value masked to a 4-char prefix (TMAS redaction still leaves part of the value visible) |
+| `secrets.findings.unmitigated[]` | Rule `secret/<ruleID>` with exact line/column; the secret value is **not** included (TMAS `--redacted` still leaves the first and last characters visible) |
 | `secrets.findings.overridden[]` | Same as above, emitted with `suppressions` (kind `external`) |
 | Paths | Secrets use absolute runner paths, vulnerabilities relative paths; both normalized to repo-relative URIs with `uriBaseId: SRCROOT` |
 | — | `partialFingerprints` so re-scans de-duplicate alerts |
@@ -48,6 +48,7 @@ Not converted: malware findings, `policyEvaluation`, `artifactMetadata`.
 
 - TMAS v2.342.0, `tmas scan dir:. -VS` on GitHub Actions (ubuntu-latest), reports with 58 vulnerabilities and 1 secret.
 - Output validated against the SARIF 2.1.0 JSON schema (0 errors).
+- The optional `upload-sarif` step to GitHub Code Scanning has **not** been tested yet (schema-valid SARIF is not a guarantee GitHub accepts every field).
 - The input format is not a published TMAS contract: if a new TMAS version changes the JSON, re-validate.
 
 ## Related

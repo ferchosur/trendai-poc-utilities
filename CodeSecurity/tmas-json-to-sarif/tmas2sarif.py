@@ -37,12 +37,6 @@ def rel_uri(path, base_dir):
     return p.lstrip("/") or "unknown"
 
 
-def mask_secret(value):
-    """TMAS redaction keeps part of the value visible; keep only a 4-char prefix (e.g. 'ghp_')."""
-    if not value:
-        return "***"
-    return str(value)[:4] + "***"
-
 
 def max_cvss(finding):
     scores = []
@@ -129,7 +123,7 @@ def convert_secrets(secrets, base_dir, rules, results):
             res = {
                 "ruleId": rid,
                 "level": "error",
-                "message": {"text": f"{f.get('description') or 'Secret detected.'} Value (redacted): {mask_secret(f.get('secret'))}"},
+                "message": {"text": f"{f.get('description') or 'Secret detected.'}"},
                 "locations": [{"physicalLocation": {"artifactLocation": {"uri": uri}, "region": region}}],
                 "partialFingerprints": {"tmasSecret/v1": fingerprint(rid, uri, region.get("startLine"), loc.get("startColumn"))},
             }
