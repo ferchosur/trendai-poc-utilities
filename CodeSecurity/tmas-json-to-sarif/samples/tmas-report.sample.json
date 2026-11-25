@@ -1,0 +1,4250 @@
+{
+  "vulnerabilities": {
+    "totalVulnCount": 58,
+    "criticalCount": 10,
+    "highCount": 18,
+    "mediumCount": 26,
+    "lowCount": 4,
+    "negligibleCount": 0,
+    "unknownCount": 0,
+    "overriddenCount": 0,
+    "findings": {
+      "Critical": [
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-w24h-v9qh-8gxj",
+          "source": "https://github.com/advisories/GHSA-w24h-v9qh-8gxj",
+          "severity": "Critical",
+          "fix": "2.2.28",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2022-28347",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2022-28347",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-vfq6-hq5r-27r6",
+          "source": "https://github.com/advisories/GHSA-vfq6-hq5r-27r6",
+          "severity": "Critical",
+          "fix": "2.2.9",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-19844",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-19844",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-hmr4-m2h5-33qx",
+          "source": "https://github.com/advisories/GHSA-hmr4-m2h5-33qx",
+          "severity": "Critical",
+          "fix": "2.2.10",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-7471",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-7471",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-frmv-pr5f-9mcr",
+          "source": "https://github.com/advisories/GHSA-frmv-pr5f-9mcr",
+          "severity": "Critical",
+          "fix": "4.2.26",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.1",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.2"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2025-64459",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-64459",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.1",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-6r97-cj55-9hrq",
+          "source": "https://github.com/advisories/GHSA-6r97-cj55-9hrq",
+          "severity": "Critical",
+          "fix": "2.2.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-14234",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-14234",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-2gwj-7jmv-h26r",
+          "source": "https://github.com/advisories/GHSA-2gwj-7jmv-h26r",
+          "severity": "Critical",
+          "fix": "2.2.28",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2022-28346",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2022-28346",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pyyaml",
+          "type": "python",
+          "version": "5.1",
+          "id": "GHSA-8q59-q68h-6hv4",
+          "source": "https://github.com/advisories/GHSA-8q59-q68h-6hv4",
+          "severity": "Critical",
+          "fix": "5.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-14343",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-14343",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "C",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "10",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "10"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pyyaml",
+          "type": "python",
+          "version": "5.1",
+          "id": "GHSA-6757-jp84-gxfx",
+          "source": "https://github.com/advisories/GHSA-6757-jp84-gxfx",
+          "severity": "Critical",
+          "fix": "5.3.1",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-1747",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-1747",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "C",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "10",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "10"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                },
+                {
+                  "cvssSource": "secalert@redhat.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pyyaml",
+          "type": "python",
+          "version": "5.1",
+          "id": "GHSA-3pqx-4fqf-j49f",
+          "source": "https://github.com/advisories/GHSA-3pqx-4fqf-j49f",
+          "severity": "Critical",
+          "fix": "5.2b1",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-20477",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-20477",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pyyaml",
+          "type": "python",
+          "version": "5.1",
+          "id": "GHSA-3pqx-4fqf-j49f",
+          "source": "https://github.com/advisories/GHSA-3pqx-4fqf-j49f",
+          "severity": "Critical",
+          "fix": "5.2",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.8",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "9.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-20477",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-20477",
+              "severity": "Critical",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "9.8",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "High": [
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-wvqv-fj8w-qmhm",
+          "source": "https://github.com/advisories/GHSA-wvqv-fj8w-qmhm",
+          "severity": "High",
+          "fix": "5.2.17",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.8",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-15307",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-15307",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.8",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "5.9"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.7",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-wpjr-j57x-wxfw",
+          "source": "https://github.com/advisories/GHSA-wpjr-j57x-wxfw",
+          "severity": "High",
+          "fix": "2.2.13",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.9",
+                "cvssExploitabilityScore": "2.2",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.2",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-13254",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-13254",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.9",
+                    "cvssExploitabilityScore": "2.2",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-v9qg-3j8p-r63v",
+          "source": "https://github.com/advisories/GHSA-v9qg-3j8p-r63v",
+          "severity": "High",
+          "fix": "2.2.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-14235",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-14235",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-rxjp-mfm9-w4wr",
+          "source": "https://github.com/advisories/GHSA-rxjp-mfm9-w4wr",
+          "severity": "High",
+          "fix": "2.2.21",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-31542",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-31542",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-qw25-v68c-qjf3",
+          "source": "https://github.com/advisories/GHSA-qw25-v68c-qjf3",
+          "severity": "High",
+          "fix": "4.2.26",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2025-64458",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-64458",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-p99v-5w3c-jqq9",
+          "source": "https://github.com/advisories/GHSA-p99v-5w3c-jqq9",
+          "severity": "High",
+          "fix": "2.2.24",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-33571",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-33571",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-m6gj-h9gm-gw44",
+          "source": "https://github.com/advisories/GHSA-m6gj-h9gm-gw44",
+          "severity": "High",
+          "fix": "2.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-24583",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-24583",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-hvmf-r92r-27hr",
+          "source": "https://github.com/advisories/GHSA-hvmf-r92r-27hr",
+          "severity": "High",
+          "fix": "2.2.8",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.5",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.1",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-19118",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-19118",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4",
+                    "cvssExploitabilityScore": "8",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.5",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-h5jv-4p7w-64jg",
+          "source": "https://github.com/advisories/GHSA-h5jv-4p7w-64jg",
+          "severity": "High",
+          "fix": "2.2.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-14233",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-14233",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-c4qh-4vgv-qc6g",
+          "source": "https://github.com/advisories/GHSA-c4qh-4vgv-qc6g",
+          "severity": "High",
+          "fix": "2.2.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-14232",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-14232",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                },
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-8x94-hmjh-97hq",
+          "source": "https://github.com/advisories/GHSA-8x94-hmjh-97hq",
+          "severity": "High",
+          "fix": "3.2.15",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.8",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "5.9"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2022-36359",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2022-36359",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.8",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-8c5j-9r9f-c6w8",
+          "source": "https://github.com/advisories/GHSA-8c5j-9r9f-c6w8",
+          "severity": "High",
+          "fix": "2.2.26",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-45116",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-45116",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-6w2r-r2m5-xq5w",
+          "source": "https://github.com/advisories/GHSA-6w2r-r2m5-xq5w",
+          "severity": "High",
+          "fix": "4.2.24",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.1",
+                "cvssExploitabilityScore": "1.8",
+                "cvssImpactScore": "4.7"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2025-57833",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-57833",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "cve@mitre.org",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.1",
+                    "cvssExploitabilityScore": "1.8",
+                    "cvssImpactScore": "4.7"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.1",
+                    "cvssExploitabilityScore": "2.2",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-6cw3-g6wv-c2xv",
+          "source": "https://github.com/advisories/GHSA-6cw3-g6wv-c2xv",
+          "severity": "High",
+          "fix": "2.2.27",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2022-23833",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2022-23833",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-53qw-q765-4fww",
+          "source": "https://github.com/advisories/GHSA-53qw-q765-4fww",
+          "severity": "High",
+          "fix": "2.2.26",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-45115",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-45115",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-3gh2-xw74-jmcw",
+          "source": "https://github.com/advisories/GHSA-3gh2-xw74-jmcw",
+          "severity": "High",
+          "fix": "2.2.11",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.8",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-9402",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-9402",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.5",
+                    "cvssExploitabilityScore": "8",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.8",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "5.9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-462w-v97r-4m45",
+          "source": "https://github.com/advisories/GHSA-462w-v97r-4m45",
+          "severity": "High",
+          "fix": "2.10.1",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "8.6",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.7",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-10906",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-10906",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.6",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "python",
+          "version": "2.19.0",
+          "id": "GHSA-x84v-xcm2-53pg",
+          "source": "https://github.com/advisories/GHSA-x84v-xcm2-53pg",
+          "severity": "High",
+          "fix": "2.20.0",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2018-18074",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2018-18074",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Low": [
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-h7pc-vwp9-298g",
+          "source": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
+          "severity": "Low",
+          "fix": "5.2.15",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "3.1",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "2.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-6873",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-6873",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "3.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "2.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-923m-gv2p-w5qp",
+          "source": "https://github.com/advisories/GHSA-923m-gv2p-w5qp",
+          "severity": "Low",
+          "fix": "5.2.15",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "3.1",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "2.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-48587",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-48587",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "3.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "2.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-8cjm-8mp7-r2xf",
+          "source": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
+          "severity": "Low",
+          "fix": "5.2.15",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "3.1",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "2.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-8404",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-8404",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "3.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "2.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-3h9f-r86x-qvjx",
+          "source": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
+          "severity": "Low",
+          "fix": "5.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "3.1",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "2.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-48588",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-48588",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "3.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "2.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Medium": [
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-xgxc-v2qg-chmh",
+          "source": "https://github.com/advisories/GHSA-xgxc-v2qg-chmh",
+          "severity": "Medium",
+          "fix": "2.2.20",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-28658",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-28658",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-v6rh-hp5x-86rv",
+          "source": "https://github.com/advisories/GHSA-v6rh-hp5x-86rv",
+          "severity": "Medium",
+          "fix": "2.2.25",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "L",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-44420",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-44420",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "6.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "L",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-rrqc-c2jx-6jgv",
+          "source": "https://github.com/advisories/GHSA-rrqc-c2jx-6jgv",
+          "severity": "Medium",
+          "fix": "4.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "3.7",
+                "cvssExploitabilityScore": "2.2",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-45231",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-45231",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-qm57-vhq3-3fwf",
+          "source": "https://github.com/advisories/GHSA-qm57-vhq3-3fwf",
+          "severity": "Medium",
+          "fix": "2.2.22",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-32052",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-32052",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-q238-5cxm-5c9h",
+          "source": "https://github.com/advisories/GHSA-q238-5cxm-5c9h",
+          "severity": "Medium",
+          "fix": "5.2.17",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "L",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-15830",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-15830",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "L",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.9",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-jrh2-hc4r-7jwx",
+          "source": "https://github.com/advisories/GHSA-jrh2-hc4r-7jwx",
+          "severity": "Medium",
+          "fix": "2.2.26",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-45452",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-45452",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-fvgf-6h6h-3322",
+          "source": "https://github.com/advisories/GHSA-fvgf-6h6h-3322",
+          "severity": "Medium",
+          "fix": "2.2.18",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-3281",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-3281",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-fr28-569j-53c4",
+          "source": "https://github.com/advisories/GHSA-fr28-569j-53c4",
+          "severity": "Medium",
+          "fix": "2.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.5",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-24584",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-24584",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.5",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-crhf-3pfg-w68w",
+          "source": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
+          "severity": "Medium",
+          "fix": "5.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "L",
+              "cvssMetrics": {
+                "cvssBaseScore": "4.8",
+                "cvssExploitabilityScore": "2.2",
+                "cvssImpactScore": "2.5"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-53877",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-53877",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "L",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.8",
+                    "cvssExploitabilityScore": "2.2",
+                    "cvssImpactScore": "2.5"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-95rw-fx8r-36v6",
+          "source": "https://github.com/advisories/GHSA-95rw-fx8r-36v6",
+          "severity": "Medium",
+          "fix": "2.2.27",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2022-22818",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2022-22818",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-8qcx-xf44-272x",
+          "source": "https://github.com/advisories/GHSA-8qcx-xf44-272x",
+          "severity": "Medium",
+          "fix": "5.2.16",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-53878",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-53878",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                },
+                {
+                  "cvssSource": "6a34fbeb-21d4-45e7-8e0a-62b95bc12c92",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-7xr5-9hcq-chf9",
+          "source": "https://github.com/advisories/GHSA-7xr5-9hcq-chf9",
+          "severity": "Medium",
+          "fix": "4.2.22",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "4",
+                "cvssExploitabilityScore": "2.2",
+                "cvssImpactScore": "1.4"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2025-48432",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-48432",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "cve@mitre.org",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4",
+                    "cvssExploitabilityScore": "2.2",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-7rp2-fm2h-wchj",
+          "source": "https://github.com/advisories/GHSA-7rp2-fm2h-wchj",
+          "severity": "Medium",
+          "fix": "2.2.2",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-12308",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-12308",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-6c7v-2f49-8h26",
+          "source": "https://github.com/advisories/GHSA-6c7v-2f49-8h26",
+          "severity": "Medium",
+          "fix": "2.2.3",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-12781",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-12781",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-6c3j-c64m-qhgq",
+          "source": "https://github.com/advisories/GHSA-6c3j-c64m-qhgq",
+          "severity": "Medium",
+          "fix": "2.2.2",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2019-11358",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-68w8-qjq3-2gfm",
+          "source": "https://github.com/advisories/GHSA-68w8-qjq3-2gfm",
+          "severity": "Medium",
+          "fix": "2.2.24",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "4.9",
+                "cvssExploitabilityScore": "1.2",
+                "cvssImpactScore": "3.6"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2021-33203",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2021-33203",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4",
+                    "cvssExploitabilityScore": "8",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.9",
+                    "cvssExploitabilityScore": "1.2",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "django",
+          "type": "python",
+          "version": "2.2.0",
+          "id": "GHSA-2m34-jcjv-45xf",
+          "source": "https://github.com/advisories/GHSA-2m34-jcjv-45xf",
+          "severity": "Medium",
+          "fix": "2.2.13",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.7"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-13596",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-13596",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "M",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.3",
+                    "cvssExploitabilityScore": "8.6",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-q2x7-8rv6-6q7h",
+          "source": "https://github.com/advisories/GHSA-q2x7-8rv6-6q7h",
+          "severity": "Medium",
+          "fix": "3.1.5",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "L",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "H",
+              "cvssMetrics": {
+                "cvssBaseScore": "7.8",
+                "cvssExploitabilityScore": "1.8",
+                "cvssImpactScore": "5.9"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "L",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.4",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-56326",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-56326",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "7.8",
+                    "cvssExploitabilityScore": "1.8",
+                    "cvssImpactScore": "5.9"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.4",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-h75v-3vvj-5mfj",
+          "source": "https://github.com/advisories/GHSA-h75v-3vvj-5mfj",
+          "severity": "Medium",
+          "fix": "3.1.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.4",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.5"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-34064",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-34064",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.4",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.5"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.4",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-h5c8-rqwp-cp95",
+          "source": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95",
+          "severity": "Medium",
+          "fix": "3.1.3",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.4",
+                "cvssExploitabilityScore": "2.8",
+                "cvssImpactScore": "2.5"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-22195",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-22195",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.7"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.4",
+                    "cvssExploitabilityScore": "2.8",
+                    "cvssImpactScore": "2.5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-g3rq-g295-4j3m",
+          "source": "https://github.com/advisories/GHSA-g3rq-g295-4j3m",
+          "severity": "Medium",
+          "fix": "2.11.3",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "L",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "3.9",
+                "cvssImpactScore": "1.4"
+              }
+            },
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.9",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2020-28493",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2020-28493",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "2.0",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "P",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5",
+                    "cvssExploitabilityScore": "10",
+                    "cvssImpactScore": "2.9"
+                  }
+                },
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "L",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                },
+                {
+                  "cvssSource": "report@snyk.io",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "L",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "3.9",
+                    "cvssImpactScore": "1.4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jinja2",
+          "type": "python",
+          "version": "2.10",
+          "id": "GHSA-cpwx-vrp4-4pq7",
+          "source": "https://github.com/advisories/GHSA-cpwx-vrp4-4pq7",
+          "severity": "Medium",
+          "fix": "3.1.6",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "4.0",
+              "cvssAttackVector": "L",
+              "cvssAttackComplexity": "L",
+              "cvssAvailabilityImpact": "",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.4",
+                "cvssExploitabilityScore": "cvss score not available",
+                "cvssImpactScore": "cvss score not available"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2025-27516",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-27516",
+              "severity": "High",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "H",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "8.8",
+                    "cvssExploitabilityScore": "2",
+                    "cvssImpactScore": "6"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "4.0",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.4",
+                    "cvssExploitabilityScore": "cvss score not available",
+                    "cvssImpactScore": "cvss score not available"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "python",
+          "version": "2.19.0",
+          "id": "GHSA-j8r2-6x86-q33q",
+          "source": "https://github.com/advisories/GHSA-j8r2-6x86-q33q",
+          "severity": "Medium",
+          "fix": "2.31.0",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "6.1",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "4"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2023-32681",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2023-32681",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "4"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "6.1",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "python",
+          "version": "2.19.0",
+          "id": "GHSA-gc5v-m9x4-r6x2",
+          "source": "https://github.com/advisories/GHSA-gc5v-m9x4-r6x2",
+          "severity": "Medium",
+          "fix": "2.33.0",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "L",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "4.4",
+                "cvssExploitabilityScore": "0.8",
+                "cvssImpactScore": "3.6"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2026-25645",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-25645",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "nvd@nist.gov",
+                  "cvssType": "Primary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "L",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.5",
+                    "cvssExploitabilityScore": "1.8",
+                    "cvssImpactScore": "3.6"
+                  }
+                },
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "4.4",
+                    "cvssExploitabilityScore": "0.8",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "python",
+          "version": "2.19.0",
+          "id": "GHSA-9wx4-h78v-vm56",
+          "source": "https://github.com/advisories/GHSA-9wx4-h78v-vm56",
+          "severity": "Medium",
+          "fix": "2.32.0",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "L",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.6",
+                "cvssExploitabilityScore": "0.3",
+                "cvssImpactScore": "5.2"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-35195",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-35195",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "L",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.6",
+                    "cvssExploitabilityScore": "0.3",
+                    "cvssImpactScore": "5.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "python",
+          "version": "2.19.0",
+          "id": "GHSA-9hjg-9r4m-mvj7",
+          "source": "https://github.com/advisories/GHSA-9hjg-9r4m-mvj7",
+          "severity": "Medium",
+          "fix": "2.32.4",
+          "locations": [
+            "/requirements.txt"
+          ],
+          "cvssSummaries": [
+            {
+              "cvssSource": "ghsa_reviewed",
+              "cvssType": "Primary",
+              "cvssVersion": "3.1",
+              "cvssAttackVector": "N",
+              "cvssAttackComplexity": "H",
+              "cvssAvailabilityImpact": "N",
+              "cvssMetrics": {
+                "cvssBaseScore": "5.3",
+                "cvssExploitabilityScore": "1.6",
+                "cvssImpactScore": "3.6"
+              }
+            }
+          ],
+          "relatedVulnerabilities": [
+            {
+              "id": "CVE-2024-47081",
+              "source": "https://nvd.nist.gov/vuln/detail/CVE-2024-47081",
+              "severity": "Medium",
+              "cvssSummaries": [
+                {
+                  "cvssSource": "security-advisories@github.com",
+                  "cvssType": "Secondary",
+                  "cvssVersion": "3.1",
+                  "cvssAttackVector": "N",
+                  "cvssAttackComplexity": "H",
+                  "cvssAvailabilityImpact": "N",
+                  "cvssMetrics": {
+                    "cvssBaseScore": "5.3",
+                    "cvssExploitabilityScore": "1.6",
+                    "cvssImpactScore": "3.6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "secrets": {
+    "totalFilesScanned": 32,
+    "unmitigatedFindingsCount": 1,
+    "overriddenFindingsCount": 0,
+    "findings": {
+      "unmitigated": [
+        {
+          "ruleID": "github-pat",
+          "description": "Uncovered a GitHub Personal Access Token, potentially leading to unauthorized repository access and sensitive content exposure.",
+          "secret": "ghp_L***REDACTED***oANyY",
+          "location": {
+            "path": "/home/runner/work/my-app/my-app/config_demo.py",
+            "startLine": 2,
+            "endLine": 2,
+            "startColumn": 18,
+            "endColumn": 57
+          }
+        }
+      ]
+    }
+  }
+}

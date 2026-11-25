@@ -1,0 +1,45 @@
+# Example GitHub Actions workflow: TMAS scan + SARIF conversion.
+# Copy to .github/workflows/ in your repo and copy tmas2sarif.py to .github/scripts/.
+# Requires the repository secret TMAS_API_KEY (Vision One API key whose role can run artifact scans)
+# and optionally the repository variable TMAS_REGION (default us-east-1).
+name: tmas-scan
+on:
+  workflow_dispatch:
+  pull_request:
+jobs:
+  tmas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write   # only needed for the optional upload-sarif step
+    env:
+      TMAS_API_KEY: ${{ secrets.TMAS_API_KEY }}
+      TMAS_REGION: ${{ vars.TMAS_REGION || 'us-east-1' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TMAS CLI
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          curl -sSL https://ast-cli.xdr.trendmicro.com/tmas-cli/latest/tmas-cli_Linux_x86_64.tar.gz | tar -xz -C "$HOME/.local/bin" tmas
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: TMAS scan
+        run: tmas scan dir:. -VS --region "$TMAS_REGION" --redacted --output json=tmas-report.json
+      - name: Convert to SARIF
+        if: always() && hashFiles('tmas-report.json') != ''
+        run: |
+          python3 .github/scripts/tmas2sarif.py tmas-report.json -o tmas-report.sarif \
+            --base-dir "$GITHUB_WORKSPACE" --tool-version "$(tmas version | awk '/^Version:/{print $2}')"
+      # Optional: requires a public repo or GitHub Advanced Security on private repos.
+      - name: Upload SARIF to GitHub Code Scanning
+        if: always() && hashFiles('tmas-report.sarif') != ''
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: tmas-report.sarif
+          category: tmas
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tmas-report
+          path: |
+            tmas-report.json
+            tmas-report.sarif
