@@ -13,6 +13,7 @@ One folder per category, one subfolder per tool. Each tool has its own `README.m
 | AI Security | [`AISecurity/`](AISecurity/) | — |
 | Cloud Security | [`CloudSecurity/`](CloudSecurity/) | — |
 | Kubernetes Security | [`KubernetesSecurity/`](KubernetesSecurity/) | — |
+| File Security | [`FileSecurity/`](FileSecurity/) | — |
 | Code Security | [`CodeSecurity/`](CodeSecurity/) | [`tmas-json-to-sarif`](CodeSecurity/tmas-json-to-sarif/): convert a TMAS JSON report to SARIF 2.1.0 |
 
 ## Contributing a tool
@@ -24,4 +25,4 @@ One folder per category, one subfolder per tool. Each tool has its own `README.m
 
 ---
 
-**Español:** herramientas desarrolladas en PoCs de TrendAI Vision One para que el equipo y los clientes las reutilicen. Una carpeta por categoría (AI Security, Cloud Security, Kubernetes Security, Code Security) y una subcarpeta con su `README.md` por herramienta. No es un producto oficial ni tiene soporte de TrendAI.
+**Español:** herramientas desarrolladas en PoCs de TrendAI Vision One para que el equipo y los clientes las reutilicen. Una carpeta por categoría (AI Security, Cloud Security, Kubernetes Security, File Security, Code Security) y una subcarpeta con su `README.md` por herramienta. No es un producto oficial ni tiene soporte de TrendAI.
