@@ -13,7 +13,7 @@ One folder per category, one subfolder per tool. Each tool has its own `README.m
 | AI Security | [`AISecurity/`](AISecurity/) | — |
 | Cloud Security | [`CloudSecurity/`](CloudSecurity/) | — |
 | Kubernetes Security | [`KubernetesSecurity/`](KubernetesSecurity/) | — |
-| File Security | [`FileSecurity/`](FileSecurity/) | — |
+| File Security | [`FileSecurity/`](FileSecurity/) | [`file-security-sdk-nodejs-demo`](FileSecurity/file-security-sdk-nodejs-demo/): web demo of the File Security SDK for Node.js |
 | Code Security | [`CodeSecurity/`](CodeSecurity/) | [`tmas-json-to-sarif`](CodeSecurity/tmas-json-to-sarif/): convert a TMAS JSON report to SARIF 2.1.0 |
 
 ## Contributing a tool
