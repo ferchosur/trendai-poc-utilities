@@ -23,6 +23,10 @@ One folder per category, one subfolder per tool. Each tool has its own `README.m
 3. Never commit credentials, customer data or real scan reports; use sanitized samples.
 4. Add the tool to the table above.
 
+## License
+
+[MIT](LICENSE). A tool folder that includes its own `LICENSE` keeps the copyright notices of the code it is based on (e.g. [`file-security-sdk-nodejs-demo`](FileSecurity/file-security-sdk-nodejs-demo/LICENSE), MIT, based on V1_FS_DemoApp_py).
+
 ---
 
-**Español:** herramientas desarrolladas en PoCs de TrendAI Vision One para que el equipo y los clientes las reutilicen. Una carpeta por categoría (AI Security, Cloud Security, Kubernetes Security, File Security, Code Security) y una subcarpeta con su `README.md` por herramienta. No es un producto oficial ni tiene soporte de TrendAI.
+**Español:** herramientas desarrolladas en PoCs de TrendAI Vision One para que el equipo y los clientes las reutilicen. Una carpeta por categoría (AI Security, Cloud Security, Kubernetes Security, File Security, Code Security) y una subcarpeta con su `README.md` por herramienta. No es un producto oficial ni tiene soporte de TrendAI. Licencia MIT.
